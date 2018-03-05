@@ -25,7 +25,7 @@
                 <TileMatrixSet>google3857</TileMatrixSet>
             </TileMatrixSetLink>
             <ResourceURL format="image/png"
-                         template="https://a.tile.opentopomap.org/{zoom}/{x}/{y}.png"
+                         template="https://a.tile.opentopomap.org/{z}/{x}/{y}.png"
                          resourceType="tile"/>
         </Layer>
         <TileMatrixSet>
