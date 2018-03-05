@@ -13,12 +13,12 @@
       var parser = new ol.format.WMTSCapabilities();
       var map;
 
-      fetch('./capabilities/opentopo.xml').then(function(response) {
+      fetch('./capabilities/opentopomap.xml').then(function(response) {
         return response.text();
       }).then(function(text) {
         var result = parser.read(text);
         var options = ol.source.WMTS.optionsFromCapabilities(result, {
-          layer: 'opentopomap'
+          layer: 'OpenTopoMap - Terrain'
         });
 
         map = new ol.Map({
