@@ -1,20 +1,20 @@
-# bertt/wmts
+# wslerry/wmts
 
-Collection of WMTS services. Sample viewer see <a href="https://bertt.github.io/wmts/">https://bertt.github.io/wmts/</a>
+Collection of WMTS services.
 
-For other applications: 
+Credit to <a href="https://github.com/bertt">https://github.com/bertt</a>
 
-Sample retrieving capabilities files on github.io:
 
-```
-$ curl https://bertt.github.io/wmts/capabilities/mapbox.xml
-```
 
-QGIS Instructions:
+# How to add WMTS in QGIS
 
-Browser panel -> WMS -> New Connection
+Browser panel,right click WMS -> WMS -> New Connection
 
-<img src="add-connection.png">
+<img src="add-new.png">
+
+Copy link of xml file into URL address
+
+<img src="add-wmts-connection.png">
 
 Select layer
 
